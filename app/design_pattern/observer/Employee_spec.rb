@@ -1,4 +1,4 @@
-require 'Employee'
+require_relative './Employee'
 describe 'test case' do
   it 'should works for rspec' do
     expect(1 + 1).to eq(2)
