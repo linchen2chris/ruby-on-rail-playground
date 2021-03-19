@@ -1,0 +1,28 @@
+#+BEGIN_SRC restclient
+GET http://localhost:3001/greet
+#+END_SRC
+
+#+RESULTS:
+#+BEGIN_SRC js
+{
+  "errors": "Content-Type must be application/json"
+}
+// GET http://localhost:3001/greet
+// HTTP/1.1 200 OK
+// X-Frame-Options: SAMEORIGIN
+// X-XSS-Protection: 1; mode=block
+// X-Content-Type-Options: nosniff
+// X-Download-Options: noopen
+// X-Permitted-Cross-Domain-Policies: none
+// Referrer-Policy: strict-origin-when-cross-origin
+// Content-Type: application/json; charset=utf-8
+// Vary: Accept
+// Cache-Control: no-store, must-revalidate, private, max-age=0
+// X-Request-Id: 29606da4-f9f0-44a6-8723-e538018c5a3f
+// X-Runtime: 0.002713
+// X-MiniProfiler-Original-Cache-Control: max-age=0, private, must-revalidate
+// X-MiniProfiler-Ids: 2zo57t5c9l374x7n4e3y,ap7q9b03d60f04duy3sn,6etfjerpaklr5ifg3apv,fuvhnz52cwt5pdpr9ujp,5fqhzj3irkwobpwdw0b4,k9x36h0n2uqa6xb2vmk9,jtr9enbml9fnu938v5db,mjrv0fs3gyc6cw40oi6m,g014g27rzanwmm20qzkn,44ree7swcfpcqbt76ecj,uifh8wb5rz9w6lxumtry,6eq08mxxc4fjcny1k1nf,5532byjx5aq5zke48ntw,zk4y5pdidbplmxnc8syy,luxtrk2h12to9vbec79x,5y27lg7po20m0k0bq6l1,g2qt8xoo2g65cx7jwn0x,egvj57ycd5m8iwvoi2wo,8ff6tmjycbtjvow5opnn,n5akpvlhh21unki6f92i
+// Set-Cookie: __profilin=p%3Dt; path=/; HttpOnly; SameSite=Lax
+// Transfer-Encoding: chunked
+// Request duration: 0.006837s
+#+END_SRC
